@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+    margin:0;
+    border-radius: 10px;
+}
+div {
+    height: 300px;
+    border: 1px solid rebeccapurple;
+}
+.header{
+    display: flex;
+    flex-direction:row;
+    height: 200px;
+}
+.logo{
+    flex:1;
+    border:1px solid black;
+    background: goldenrod;
+}
+ .menu{
+    flex:5;
+    border:1px solid black;
+    background: yellowgreen;
+
+ }
+ .banner{
+    height: 500px;
+    background: mediumspringgreen;
+    padding-top: 15px;
+    background-image: url(/);
+ }
+
+ .tech{
+    display:flex;
+    flex-direction:row;
+ }
+
+ .hyper{
+    flex:2;
+    border:1px solid black;
+    background: skyblue;
+    padding-top: 15px;
+ }
+ .cs{
+    flex:2;
+    border:1px solid black;
+    background: seagreen;
+    padding-top: 15px;
+}
+
+ .jss{
+    flex:2;
+    border:1px solid black;
+    background: sandybrown;
+    padding-top: 15px;
+}
+
+.services{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.a1{
+    flex:25vw;
+    background-color: bisque;
+    padding-top: 15px;
+}
+.a2{
+    flex:25vw;
+    background: blanchedalmond;
+    padding-top: 15px;
+}
+.a3{
+    flex:25vw;
+    background: antiquewhite;
+    padding-top: 15px;
+}
+.a4{
+    flex:25vw;
+    background: rgb(230, 231, 219);
+    padding-top: 15px;
+}
+.services > div{
+    border:none;
+
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    border:none;
+    padding-top: 15px;
+
+} 
+.header, .banner, .tech, .services, .footer{
+    font-size:30px;
+    text-align: center;
+    color:rgb(148, 5, 5);
+    
+}
+
+.copyright{
+    border:none;
+    background: palegreen;
+    padding:15px;
+    height:75px;
+}
+
+.footer >div{
+    border:none;
+}
